@@ -97,8 +97,7 @@ pip install -r requirements.txt
 - pet_adoption_decision_tree.ipynb: Full notebook with EDA, preprocessing, modeling, and evaluation.
 - requirements.txt: List of required Python packages.
 - images/confusion_matrix.png: Confusion matrix of the default model.
-
-images/tuned_confusion_matrix.png: Confusion matrix of the tuned model.
+- images/tuned_confusion_matrix.png: Confusion matrix of the tuned model.
 
 👨‍💻 Author
 
