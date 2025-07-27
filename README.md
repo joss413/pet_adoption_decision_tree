@@ -1,5 +1,5 @@
 # 🐾 Pet Adoption Likelihood Prediction (Decision Tree Classifier)
-This project predicts whether a pet is likely or unlikely to be adopted using a Decision Tree Classifier. I preprocess pet-related features, tune decision tree hyperparameters, and evaluate performance with accuracy, precision, recall, and confusion matrix visualizations.\
+This project predicts whether a pet is likely or unlikely to be adopted using a Decision Tree Classifier. I preprocess pet-related features, tune decision tree hyperparameters, and evaluate performance with accuracy, precision, recall, and confusion matrix visualizations.
 
 
 ## 📊 Dataset
