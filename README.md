@@ -7,51 +7,42 @@ Source: Predict Pet Adoption Status Dataset on Kaggle
 
 Target Variable: adoption_likelihood
 
-1 → Likely to be adopted
+- 1 → Likely to be adopted
 
-0 → Unlikely to be adopted
+- 0 → Unlikely to be adopted
 
 Features include:
 
-Age (in months)
-
-Adoption fee
-
-Pet weight (kg)
-
-Size, breed, color, type
-
-Other categorical descriptors
+- Age (in months)
+- Adoption fee
+- Pet weight (kg)
+- Size, breed, color, type
+- Other categorical descriptors
 
 ## 🚀 Project Workflow
+
 1. Data Preprocessing
-Removed non-informative columns (pet_id)
-
-Mapped and encoded categorical features:
-
-Ordinal mapping for size
-
-One-hot encoding for color, breed, pet_type
-
-Scaled numerical features:
-
-weight_kg → MinMaxScaler
-
-adoption_fee → StandardScaler
-
-Visualized feature distributions and class balance
+   
+- Removed non-informative columns (pet_id)
+- Mapped and encoded categorical features:
+- Ordinal mapping for size
+- One-hot encoding for color, breed, pet_type
+- Scaled numerical features:
+- weight_kg → MinMaxScaler
+- adoption_fee → StandardScaler
+- Visualized feature distributions and class balance
 
 2. Modeling
+   
 🔹 Baseline Model (Default Decision Tree)
-Used default DecisionTreeClassifier from sklearn
 
-Accuracy: 0.86
+Used default DecisionTreeClassifier from sklearn
+- Accuracy: 0.86
 
 Observations:
 
-Balanced performance across both classes
-
-Tends to overfit without tuning
+- Balanced performance across both classes
+- Tends to overfit without tuning
 
 🔹 Tuned Model (Custom Hyperparameters)
 
@@ -98,15 +89,17 @@ pip install -r requirements.txt
 ```
 
 📂 Files in This Repo
-pet_adoption_decision_tree.ipynb: Full notebook with EDA, preprocessing, modeling, and evaluation.
 
-requirements.txt: List of required Python packages.
+- pet_adoption_decision_tree.ipynb: Full notebook with EDA, preprocessing, modeling, and evaluation.
+- requirements.txt: List of required Python packages.
+- images/confusion_matrix.png: Confusion matrix of the default model.
 
-images/confusion_matrix_default.png: Confusion matrix of the default model.
-
-images/confusion_matrix_tuned.png: Confusion matrix of the tuned model.
+images/tuned_confusion_matrix.png: Confusion matrix of the tuned model.
 
 👨‍💻 Author
+
 Yoseph Negash
+
 📧 yosephn22@gmail.com
+
 📅 2025
