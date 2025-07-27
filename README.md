@@ -47,9 +47,13 @@ Observations:
 🔹 Tuned Model (Custom Hyperparameters)
 
 DecisionTreeClassifier(
+
     criterion='entropy',
+    
     max_depth=5,
+    
     min_samples_split=10,
+    
     min_samples_leaf=5
 )
 
