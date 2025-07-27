@@ -25,7 +25,7 @@ Features include:
    
 - Removed non-informative columns (pet_id)
 - Mapped and encoded categorical features:
-- Ordinal mapping for size
+- label encoding for size
 - One-hot encoding for color, breed, pet_type
 - Scaled numerical features:
 - weight_kg → MinMaxScaler
