@@ -3,7 +3,7 @@ This project predicts whether a pet is likely or unlikely to be adopted using a 
 
 
 ## 📊 Dataset
-Source: Predict Pet Adoption Status Dataset on Kaggle
+This project uses the [Predict Pet Adoption Status Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-pet-adoption-status-dataset) published by **Rabie El Kharoua** on Kaggle.
 
 Target Variable: adoption_likelihood
 
